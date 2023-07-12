@@ -3,11 +3,6 @@ title: "Monitoring your APIs in Postman"
 updated: 2023-03-20
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -17,6 +12,9 @@ contextual_links:
   - type: link
     name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Intergalactic"
     url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
+    name: "Deploying APIs | Postman Enterprise"
+    url: "https://youtu.be/plykCPwt32M"
   - type: subtitle
     name: "Blog posts"
   - type: link
@@ -31,8 +29,8 @@ contextual_links:
     name: "Hathway uses monitors to identify issues with integrations"
     url: "https://www.postman.com/case-studies/hathway/"
   - type: link
-    name: "Momentive tracks production API performance with monitors"
-    url: "https://www.postman.com/case-studies/momentive/"
+    name: "PayPal uses monitors"
+    url: "https://www.postman.com/case-studies/paypal/"
   - type: subtitle
     name: "Public workspaces"
   - type: link
@@ -40,7 +38,7 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
 ---
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Collection-based monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows.
+Postman Monitors give you [continuous visibility into the health and performance of your APIs](https://www.postman.com/api-platform/api-observability/). Collection-based monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows.
 
 Once the monitor is running you’ll be alerted to any test failures, so you can identify and address issues before your API’s consumers are affected.
 
@@ -63,7 +61,7 @@ Learn how to [set up a collection-based monitor](/docs/monitoring-your-api/setti
 
 ## Monitor use cases
 
-Because they run Postman requests and scripts, collection-based monitors can be used to monitor APIs in a variety of ways. Here are some things you can do with collection-based monitors:
+Because they run Postman requests and scripts, collection-based monitors can be used to [monitor APIs](https://www.postman.com/api-platform/api-monitoring/) in a variety of ways. Here are some things you can do with collection-based monitors:
 
 * **Check API health and performance** - Ensure the API is up and running in production and other environments.
 * **Validate API response structure and data** - Ensure the API is functioning according to specifications.

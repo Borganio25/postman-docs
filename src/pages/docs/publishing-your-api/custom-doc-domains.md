@@ -9,16 +9,6 @@ contextual_links:
   - type: link
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Publishing your docs"
-    url: "/docs/publishing-your-api/publishing-your-docs/"
 ---
 
 > **[Custom documentation domains are available on Postman paid plans.](https://www.postman.com/pricing)**

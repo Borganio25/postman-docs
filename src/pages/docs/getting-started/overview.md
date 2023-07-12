@@ -3,14 +3,6 @@ title: "Getting started"
 updated: 2023-02-27
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
-  - type: link
-    name: "Installation and updates"
-    url: "/docs/getting-started/installation-and-updates/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -21,8 +13,8 @@ contextual_links:
     name: "Intro to Postman playlist"
     url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
-    name: "Postman Intergalactic: An Introduction for Developers"
-    url: "https://youtu.be/8MOzaTsVRKg"
+    name: "Introduction for Developers | Postman Intergalactic"
+    url: "https://youtu.be/qUlcosvyIyo"
   - type: link
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"

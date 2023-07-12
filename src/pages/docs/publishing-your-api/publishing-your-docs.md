@@ -3,30 +3,26 @@ title: "Publishing your docs in Postman"
 updated: 2023-04-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
+  - type: link
+    name: "Customize Public Documentation | Postman Level Up"
+    url: "https://youtu.be/X6Yi8aJOLds"
   - type: subtitle
     name: "Blog posts"
   - type: link
-    name: "Postman Public API Network Is Now the World’s Largest Public API Hub"
-    url: "https://blog.postman.com/postman-public-api-network-is-now-the-worlds-largest-public-api-hub/"
+    name: "Introducing more customization for published collection documentation"
+    url: "https://blog.postman.com/introducing-more-customization-for-published-collection-documentation/"
   - type: link
     name: "Introducing Governance for Publishing Collection Documentation"
     url: "https://blog.postman.com/introducing-governance-publishing-collection-documentation/"
-  - type: subtitle
-    name: "Case Studies"
   - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/resources/case-studies/imgur/"
+    name: "How to publish and market your API to maximize adoption"
+    url: "https://blog.postman.com/how-to-publish-and-market-your-api-to-maximize-adoption/"
 ---
 
 Publishing your documentation makes it publicly available to anyone with the link to the documentation and a web browser. Publish your documentation to help people around the world learn how to use your collection or interact with your Public API.

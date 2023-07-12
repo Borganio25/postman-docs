@@ -3,11 +3,6 @@ title: "Syncing cookies in Postman"
 updated: 2022-03-02
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using cookies"
-    url: "/docs/sending-requests/cookies/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -71,6 +66,8 @@ Postman is ready to capture and sync cookies using Interceptor.
 * Cookies for the domains you specified are automatically synced from Chrome to Postman.
 * To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
+
+> You can also control Interceptor debug sessions from the Interceptor extension in the Chrome browser. For more information, see [Using Interceptor from Chrome](/docs/sending-requests/capturing-request-data/interceptor/#using-interceptor-from-chrome).
 
 ## Syncing cookies with the Postman proxy
 

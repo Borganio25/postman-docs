@@ -3,11 +3,6 @@ title: 'Publishing an API version'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API version control overview"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -19,11 +14,6 @@ contextual_links:
   - type: link
     name: "How to Make Your APIs Available to More Consumers"
     url: "https://blog.postman.com/how-to-make-your-apis-available-to-more-consumers/"
-  - type: subtitle
-    name: "Next steps"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
 When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API's current state. Consumers can view the API version in your workspace. You can also choose to add the version to your [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
@@ -56,15 +46,15 @@ To publish an API version, do the following:
 1. On the API's overview, under **Publish your API to consumers**, select **Publish API**. (If you've published a version before, select **Publish** under **Published Versions**.)
 1. Enter a **Version label** and, if you want, add any **Release notes** describing this version.
 1. Select the elements you want to publish with this version (API definition and collections).
-1. To make this version available on the Private API Network, select **Add to Private API Network** (or **Request to add to Private API Network**, depending on your [role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)). You can select a folder to place the API version in, or create a new folder.
+1. To make this version available on the Private API Network, select **Add to API Network** (or **Request to Add**, depending on your [role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)). You can select a folder to place the API version in, or create a new folder.
 
     > You can only add APIs to the Private API Network from team or public workspaces.
 
 1. Select **Publish API**.
 
-    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-3-v10.jpg" width="442px" />
+    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-v10-3.jpg" width="442px" />
 
-> If your team has enabled the [approval process](/docs/collaborating-in-postman/adding-private-network/#turn-on-the-approval-process) for the Private API network, you can request to add the published API to the Private API Network. Your team's API Network Manager will approve the request.
+> If you aren't assigned the API Network Manager or Folder Manager role, you can [request to add](/docs/collaborating-in-postman/adding-private-network/#requesting-to-add-elements) the published API to the Private API Network. Your team's API Network Manager or Folder Manager will review the request.
 
 ## Editing and deleting an API version
 

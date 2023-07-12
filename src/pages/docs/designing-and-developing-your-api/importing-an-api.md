@@ -3,11 +3,6 @@ title: 'Importing an API in Postman'
 updated: 2022-09-15
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: section
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
@@ -17,6 +12,9 @@ contextual_links:
   - type: link
     name: "Import OpenAPI definitions from Azure API Management to Postman"
     url: "https://youtu.be/0XWReDRibmU"
+  - type: link
+    name: "Designing APIs | Postman Enterprise"
+    url: "https://youtu.be/IRl40Nl8dwo"
   - type: subtitle
     name: "Blog posts"
   - type: link

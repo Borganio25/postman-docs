@@ -1,12 +1,7 @@
 ---
 title: "Setting up Postman"
-updated: 2023-03-15
+updated: 2023-05-15
 contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Download and Install"
-    url: "https://www.postman.com/downloads/"
   - type: section
     name: "Additional resources"
   - type: subtitle
@@ -20,11 +15,6 @@ contextual_links:
   - type: link
     name: "Dark Mode | Postman Level Up"
     url: "https://youtu.be/rZySZm9XaLM"
-  - type: section
-    name: "Next steps"
-  - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
 ---
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
@@ -59,7 +49,7 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 * **Language detection** - By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
 * **Request Timeout in ms** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
 * **Max response size in MB** - Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
-* **Request Validation** - Turn this off to prevent Postman from attempting to validate requests in collections linked to an API schema.
+* **Request Validation** - When this is turned on, Postman automatically validates requests in collections linked to an API. Postman compares requests to the API definition and alerts you to any inconsistencies. Learn more about [validating requests and responses](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/).
 
 ### Working directory
 
@@ -141,6 +131,8 @@ Use the **Data** tab to request a bulk export of Postman data or to import data.
 
 Importing a dump file may overwrite your existing collections and environments, so use caution. Always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
 
+If you have data on the [Scratch Pad](/docs/getting-started/using-scratch-pad/), you can migrate the data to a workspace. Learn more about [migrating Scratch Pad data to a workspace](/docs/getting-started/using-scratch-pad/#migrating-scratch-pad-data-to-a-workspace).
+
 ## Add-ons
 
 Select the link to download Newman, Postman's command line companion. Newman integrates your Postman collections with your build system and runs automated API tests. Learn more about [command line integration with Newman](/docs/collections/using-newman-cli/command-line-integration-with-newman/).
@@ -151,7 +143,7 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Connected accounts
 
-You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party services. For example, when you [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/), Postman stores your authorization details. You can then use the connected account to add other integrations to the same service.
+You can use the **Connected accounts** tab to manage the accounts and tokens used to authorize Postman with third-party services. For example, when you [connect an API to a Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/), Postman stores your authorization details. You can then use the connected account to add other integrations to the same service.
 
 You can manage your saved accounts and tokens on the **Connected accounts** tab:
 
